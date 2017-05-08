@@ -1,0 +1,40 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "第一个react",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base assets"
+  },
+  "author": "蒋正庚",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.14.5",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.8.4",
+    "immutable": "^3.8.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "node-libs-browser": "^0.5.2",
+    "react-redux": "^5.0.4",
+    "react-thunk": "^1.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.12.4",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^1.0.2",
+    "url-loader": "^0.5.6",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
